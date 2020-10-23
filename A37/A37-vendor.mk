@@ -343,5 +343,7 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     TimeService \
     ims \
-    shutdownlistener \
-    imscmlibrary
+    imssettings \
+    imscmlibrary \
+    qcnvitems \
+    qcrilhook
