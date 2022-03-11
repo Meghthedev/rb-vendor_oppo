@@ -46,6 +46,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := qcrilmsgtunnel
 LOCAL_MODULE_OWNER := oppo
 LOCAL_SRC_FILES := proprietary/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
+LOCAL_ENFORCE_USES_LIBRARIES := false
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
@@ -58,6 +59,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := shutdownlistener
 LOCAL_MODULE_OWNER := oppo
 LOCAL_SRC_FILES := proprietary/vendor/app/shutdownlistener/shutdownlistener.apk
+LOCAL_ENFORCE_USES_LIBRARIES := false
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
@@ -70,6 +72,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := ims
 LOCAL_MODULE_OWNER := oppo
 LOCAL_SRC_FILES := proprietary/vendor/app/ims/ims.apk
+LOCAL_ENFORCE_USES_LIBRARIES := false
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
@@ -82,6 +85,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := imssettings
 LOCAL_MODULE_OWNER := oppo
 LOCAL_SRC_FILES := proprietary/vendor/app/imssettings/imssettings.apk
+LOCAL_ENFORCE_USES_LIBRARIES := false
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
@@ -94,6 +98,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := imscmlibrary
 LOCAL_MODULE_OWNER := oppo
 LOCAL_SRC_FILES := proprietary/vendor/framework/imscmlibrary.jar
+LOCAL_ENFORCE_USES_LIBRARIES := false
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
@@ -105,6 +110,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := qcnvitems
 LOCAL_MODULE_OWNER := oppo
 LOCAL_SRC_FILES := proprietary/vendor/framework/qcnvitems.jar
+LOCAL_ENFORCE_USES_LIBRARIES := false
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
@@ -116,6 +122,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := qcrilhook
 LOCAL_MODULE_OWNER := oppo
 LOCAL_SRC_FILES := proprietary/vendor/framework/qcrilhook.jar
+LOCAL_ENFORCE_USES_LIBRARIES := false
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
